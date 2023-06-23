@@ -10,8 +10,8 @@ const Home = () => {
 	return (
 		<div className="font-roboto ">
 			<Hero />
-			<Clients />
 			<Services />
+			<Clients />
 			<Strat />
 			<Testimonials />
 			<Blog />

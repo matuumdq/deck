@@ -46,7 +46,7 @@ const Testimonials = () => {
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 512 512"
 								fill="currentColor"
-								className="absolute -left-12 -top-2 w-8 h-8 text-harvest-gold-600"
+								className="absolute md:-left-12 -top-6 w-8 h-8 text-harvest-gold-600"
 							>
 								<path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
 								<path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
@@ -64,7 +64,7 @@ const Testimonials = () => {
 						</p>
 						<div className="w-full h-full rounded-2xl bg-center bg-cover duration-500"></div>
 						{/* left */}
-						<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[0%] left-5 text-2xl rounded-full p-2 bg-black/20 hover:bg-black ease-in duration-300 text-white cursor-pointer">
+						<div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 hover:bg-black ease-in duration-300 text-white cursor-pointer">
 							<BsChevronCompactLeft
 								onClick={prevSlide}
 								size={30}

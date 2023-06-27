@@ -9,7 +9,7 @@ const Navbar = () => {
 			{/* Left */}
 			<Link to="/" className="flex items-center gap-6">
 				<img
-					src="https://res.cloudinary.com/dnqmez68n/image/upload/v1687383597/deck_d2qmmb.png"
+					src="https://res.cloudinary.com/dnqmez68n/image/upload/v1687903209/decklogosinrealstate_uuo1iz.png"
 					alt="logo"
 					className="h-20 w-auto"
 				/>
@@ -79,7 +79,7 @@ const Navbar = () => {
 				/>
 				<Link to="/" onClick={() => setNav(false)}>
 					<img
-						src="https://res.cloudinary.com/dnqmez68n/image/upload/v1687383597/deck_d2qmmb.png"
+						src="https://res.cloudinary.com/dnqmez68n/image/upload/v1687903209/decklogosinrealstate_uuo1iz.png"
 						alt="logo"
 						className="h-32 w-auto mx-auto mt-4"
 					/>

@@ -7,11 +7,16 @@ const Focus = () => {
 				</h3>
 				<div className="mt-8 flex flex-col md:flex-row justify-center items-center gap-3">
 					<p className="md:px-8">
-						En Deck, nos enfocamos en ofrecer soluciones de
-						marketing digital personalizadas para empresas
-						inmobiliarias. Nuestro objetivo es ayudarte a aumentar
-						tu visibilidad en línea y fortalecer tu presencia
-						digital en el competitivo mundo del real estate.
+						En{" "}
+						<span className="text-teak-400 font-bold uppercase">
+							{" "}
+							Deck
+						</span>
+						, nos enfocamos en ofrecer soluciones de marketing
+						digital personalizadas para empresas inmobiliarias.
+						Nuestro objetivo es ayudarte a aumentar tu visibilidad
+						en línea y fortalecer tu presencia digital en el
+						competitivo mundo del real estate.
 					</p>
 					<img
 						src="https://res.cloudinary.com/dnqmez68n/image/upload/v1686323570/descarga_bdlmeu.jpg"

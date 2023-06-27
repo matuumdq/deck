@@ -66,10 +66,10 @@ const Strat = () => {
 			className="image"
 		>
 			<div id="estrategia" className="bg-harvest-gold-200/30 py-24 px-4">
-				<h2 className="font-teko tracking-widest text-2xl md:text-5xl uppercase mx-auto max-w-screen-xl">
+				<h2 className="text-white font-teko tracking-widest text-2xl md:text-4xl uppercase mx-auto max-w-screen-xl">
 					Recorre el camino hacia el éxito inmobiliario:
 				</h2>
-				<h2 className="font-teko pl-6 tracking-widest text-2xl md:text-5xl uppercase mx-auto max-w-screen-xl">
+				<h2 className="text-white font-teko tracking-widest text-3xl md:text-5xl uppercase mx-auto max-w-screen-xl">
 					Nuestro Proceso Transformador
 				</h2>
 				<div className="mt-6 text-sm grid sm:grid-cols-2 md:grid-cols-3 content-center gap-10 max-w-screen-xl mx-auto">

@@ -16,7 +16,7 @@ const Navbar = () => {
 			</Link>
 			<div className="hidden text-harvest-gold-400 md:flex font-roboto uppercase text-sm items-center cursor-pointer font-medium gap-10 p-1">
 				<a
-					href="#start"
+					href="#enfoque"
 					className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
 				>
 					Enfoque
@@ -52,7 +52,7 @@ const Navbar = () => {
 			>
 				<AiOutlineMenu
 					size={30}
-					className="hover:scale-110 ease-in duration-300 text-harvest-gold-400"
+					className="hover:scale-110 ease-in duration-300 text-teak-400"
 				/>
 			</div>
 
@@ -88,7 +88,7 @@ const Navbar = () => {
 					<ul className="my-32 flex flex-col px-4 py-8 gap-4 text-xl text-black">
 						<a
 							onClick={() => setNav(false)}
-							href="#start"
+							href="#enfoque"
 							className="border-b-2 pb-2 border-transparent hover:border-harvest-gold-400 hover:text-harvest-gold-400 ease-in duration-300"
 						>
 							Enfoque

@@ -43,9 +43,9 @@ const Hero = () => {
 			</div>
 			{showMouse && (
 				<div className="fixed left-0 right-0 bottom-4 animate-bounce flex justify-center items-center">
-					<a href="#services">
+					<a href="#enfoque">
 						{/* <BsMouse className="z-20 text-white text-2xl" /> */}
-						<FaAngleDown className="z-20 text-java-400 text-3xl text-white" />
+						<FaAngleDown className="z-20 text-teak-400 text-3xl " />
 					</a>
 				</div>
 			)}

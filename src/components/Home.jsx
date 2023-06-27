@@ -1,19 +1,21 @@
 import Blog from "./Blog";
-import Clients from "./Clients";
 import Contact from "./Contact";
 import Hero from "./Hero";
 import Services from "./Services";
+import Something from "./Something";
 import Strat from "./Strat";
-import Testimonials from "./Testimonials";
+import TestimonialBeta from "./TestimonialBeta";
+// import Testimonials from "./Testimonials";
 
 const Home = () => {
 	return (
 		<div className="font-roboto ">
 			<Hero />
 			<Services />
-			<Clients />
+			<Something />
 			<Strat />
-			<Testimonials />
+			{/* <Testimonials /> */}
+			<TestimonialBeta />
 			<Blog />
 			<Contact />
 		</div>

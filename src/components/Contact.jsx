@@ -42,8 +42,8 @@ const Contact = () => {
 	return (
 		<section
 			id="contacto"
-			data-aos="zoom-in-left"
-			className="bg-white my-20 lg:my-[120px] overflow-hidden relative z-10"
+			data-aos="zoom-in"
+			className="bg-white py-10 my-20 lg:my-32 overflow-hidden relative z-10"
 		>
 			<div className="container max-w-screen-xl mx-auto">
 				<div className="flex flex-wrap lg:justify-between -mx-4">

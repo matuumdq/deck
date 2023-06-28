@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import VideoPlayer from "./VideoPlayer";
+import { motion } from "framer-motion";
 const Hero = () => {
 	const [showMouse, setShowMouse] = useState(true);
 
@@ -24,7 +25,9 @@ const Hero = () => {
 	}, []);
 
 	return (
-		<div
+		<motion.div
+			initial={{ opacity: 0 }}
+			whileInView={{ opacity: 1 }}
 			id="container"
 			className="w-full h-[90vh] bg-black flex items-center  md:justify-start md:items-start"
 		>
@@ -49,7 +52,7 @@ const Hero = () => {
 					</a>
 				</div>
 			)}
-		</div>
+		</motion.div>
 	);
 };
 

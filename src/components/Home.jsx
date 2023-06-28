@@ -9,7 +9,7 @@ import ToggleSwitch from "./ToggleSwitch";
 // eslint-disable-next-line react/prop-types
 const Home = ({ toggle, handleToggleChange }) => {
 	return (
-		<div className="font-roboto">
+		<div className="font-roboto overflow-x-hidden">
 			<Hero />
 			<ToggleSwitch checked={toggle} onChange={handleToggleChange} />
 			<Focus toggle={toggle} />

@@ -34,16 +34,23 @@ const Blog = () => {
 	return (
 		<div id="blog" className="pt-24 px-4">
 			<div className="max-w-screen-xl mx-auto">
-				<h2 className="font-teko tracking-widest text-xl md:text-4xl uppercase mx-auto max-w-screen-xl">
+				<h2
+					data-aos="fade-right"
+					className="font-teko tracking-widest text-xl md:text-4xl uppercase mx-auto max-w-screen-xl"
+				>
 					Explora lo Mejor del Mundo Inmobiliario:
 				</h2>
-				<h2 className="font-teko tracking-widest text-2xl md:text-5xl uppercase mx-auto max-w-screen-xl">
+				<h2
+					data-aos="fade-right"
+					className="font-teko tracking-widest text-2xl md:text-5xl uppercase mx-auto max-w-screen-xl"
+				>
 					Recomendaciones de Articulos esenciales
 				</h2>
 				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
 					{blogs.map((blog) => (
 						<div
 							key={blog.id}
+							data-aos="zoom-in-up"
 							className="rounded-lg border border-t-0 border-harvest-gold-300 pb-4"
 						>
 							<img

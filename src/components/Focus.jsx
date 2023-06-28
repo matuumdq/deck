@@ -4,7 +4,10 @@ const Focus = ({ toggle }) => {
 	if (toggle) {
 		content = (
 			<>
-				<div className="mt-8 flex flex-col md:flex-row justify-center items-center gap-3">
+				<div
+					data-aos="fade-left"
+					className="mt-8 flex flex-col md:flex-row justify-center items-center gap-3"
+				>
 					<p className="md:px-8">
 						At{" "}
 						<span className="text-teak-400 font-bold uppercase">
@@ -23,7 +26,10 @@ const Focus = ({ toggle }) => {
 						className="w-full max-h-44 md:max-h-full object-cover md:w-1/2"
 					/>
 				</div>
-				<div className="md:bg-teak-400/50 flex flex-col md:flex-row-reverse justify-center items-center gap-3">
+				<div
+					data-aos="fade-right"
+					className="md:bg-teak-400/50 flex flex-col md:flex-row-reverse justify-center items-center gap-3"
+				>
 					<p className="md:px-8">
 						Through effective social media advertising strategies
 						and cutting-edge website designs, we ensure that your
@@ -36,7 +42,10 @@ const Focus = ({ toggle }) => {
 						className="w-full max-h-44 md:max-h-full object-cover md:w-1/2"
 					/>
 				</div>
-				<div className="flex flex-col md:flex-row justify-center items-center gap-3">
+				<div
+					data-aos="fade-left"
+					className="flex flex-col md:flex-row justify-center items-center gap-3"
+				>
 					<p className="md:px-8">
 						In addition, our web design experts will create a
 						professional and attractive website for your real estate
@@ -57,7 +66,10 @@ const Focus = ({ toggle }) => {
 	} else {
 		content = (
 			<>
-				<div className="mt-8 flex flex-col md:flex-row justify-center items-center gap-3">
+				<div
+					data-aos="fade-left"
+					className="mt-8 flex flex-col md:flex-row justify-center items-center gap-3"
+				>
 					<p className="md:px-8">
 						En{" "}
 						<span className="text-teak-400 font-bold uppercase">
@@ -76,7 +88,10 @@ const Focus = ({ toggle }) => {
 						className="w-full max-h-44 md:max-h-full object-cover md:w-1/2"
 					/>
 				</div>
-				<div className="md:bg-teak-400/50 flex flex-col md:flex-row-reverse justify-center items-center gap-3">
+				<div
+					data-aos="fade-right"
+					className="md:bg-teak-400/50 flex flex-col md:flex-row-reverse justify-center items-center gap-3"
+				>
 					<p className="md:px-8">
 						A través de estrategias efectivas de publicidad en redes
 						sociales y diseños de sitios web de última generación,
@@ -90,7 +105,10 @@ const Focus = ({ toggle }) => {
 						className="w-full max-h-44 md:max-h-full object-cover md:w-1/2"
 					/>
 				</div>
-				<div className="flex flex-col md:flex-row justify-center items-center gap-3">
+				<div
+					data-aos="fade-left"
+					className="flex flex-col md:flex-row justify-center items-center gap-3"
+				>
 					<p className="md:px-8">
 						Además, nuestros expertos en diseño web se encargarán de
 						crear un sitio web profesional y atractivo para tu
@@ -111,14 +129,18 @@ const Focus = ({ toggle }) => {
 		);
 	}
 	return (
-		<section id="enfoque" className="h-auto px-5 pt-24 pb-12 w-full">
+		<div
+			data-aos="fade-right"
+			id="enfoque"
+			className="h-auto px-5 pt-24 pb-12 w-full"
+		>
 			<div className="max-w-screen-xl mx-auto grid gap-4 md:gap-0">
 				<h3 className="font-teko tracking-widest text-5xl uppercase justify-self-center md:justify-self-end">
 					{toggle ? "Our focus" : "Nuestro Enfoque"}
 				</h3>
 				{content}
 			</div>
-		</section>
+		</div>
 	);
 };
 

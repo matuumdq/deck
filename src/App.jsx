@@ -4,8 +4,11 @@ import Home from "./components/Home";
 import WebStrat from "./components/WebStrat";
 import PublicidadStrat from "./components/PublicidadStrat";
 import { useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+	Aos.init();
 	const [toggle, setToggle] = useState(false);
 
 	const handleToggleChange = () => {

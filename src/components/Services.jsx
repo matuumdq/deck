@@ -6,12 +6,14 @@ const Services = () => {
 			name: "Publicidad en Redes Sociales",
 			icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAClElEQVR4nO2bQW7UMBRAvQa2g2AQXAKJS5AepCPaTSvarqkQ5Rwtt2AQ7XTVruiCUyBUhk1h8ZDpLwpRnGTyncT25EldjP3zEz977HGSGjMy8h/ABvAJ+Ek62LbMgcxUAbwlfQ6ret5yA7wGpiYRbFuAPWkbpSOB22Fv2SuUPwQ2G5xk08aagAH2pY0fyyqXUjktNP5KymcViWcSc9WFBOAcHYvcSLD8KDvJX3KfJ8CX21K+Ao8qLrAY+9izADWudv6jJPBylV4tjJYL4xHnRbc4dhQgNDE1aTqsV/m6+OjFXgS4JsG7uHx8D5PgMALKlsEyAV0vg4MKCIFBBBCQkFGA4EOeMxcNA+/KXfE+CXIEsO4ChqAXmYQt4EzZ/tOoBfhELYCaoaXB9EASAlj9/sDCm4AQ0MgNRgCKvcMq1xakAJS7xxQETDS30AYRgGchmltoowChjSznsdQEuj7XlZfFaW+hpSBg1mQSdK0UQQjoehmskpSEAM1KsRYCqlYKWlA81mgFUHMCDQ0EnPW+Hcbxua68DV0+bPEmoGu6etgSjYCuHrY0FpAqowDBaWZdGAUUwWUmMWpHgFljAUupS+b9wCLAE2njdVnlXCr3TaIAB1XvCWZSeSMvFE4T6/mD3JuiL12Bh6TPmzpbmR0iuTkhBZbSpvKe74rctvVVi2O3ilvZqACeSwO+Aw9aHH8P+CY5XpjYAD7Ixb9T5DiSHCcmwln3l/w99ZDnN/DMxALwXnru2EOuE8l1ZGIAuO/zu6udS3oH2JYL/uwx56nk3PKVs+//2BiChU8BS+Lj2qeAuSTdMYED7Do3PIqkmSS1S9KOvWdvAkOeI+zKkon3n73EtVGq3vAoJGQBb5SG2fCMmLj5AwxSPaRbSnN0AAAAAElFTkSuQmCC",
 			url: "/strat/publicidad",
+			data: "flip-down",
 		},
 		{
 			id: 2,
 			name: "Diseño Web",
 			icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADV0lEQVR4nO2av2sUQRTHV3IBsVJBC6NlrlKwUEmwPLQ22CmclaX3R6Q26cSQWiFBjSkkouUtZxSLlIETf+CPzvP0Kg3IV0a/S56bmd05b3bd3ZsvDMzOzJuZ99k3yztugsDLy8vLy8sLwAkA9wEMUF0p39YA1HXO9zA+Ur4elwDuseMRgKmqngflNIAN+roqO6Kw36VSUTHalb7Kxt8Szx2LMAqDkirub6ABEFoAaAdVBVB12URApwqh7uoItBMmOgrgGYEdMYypcT5VarE+m2+N85fg5AgA2A9gU2zyJYADmnHXxJimbiM2Gs3lbADcptlbAO9Yv6V5+13hR1dGgc26hQQA4CyAnwB+ADjH8p1tZ8S4pnC8G4+CMgNYp8m8aJtn25rm7TdjMGqmdU3fBVfOuwLQp8lULM1U+sLnyGGdmgkAtDmIK+ddARjQ5JBoO8y2b3zeTgCwbbtuUQG8oMmcaLvMtk05J4AJMWZCrlVmAC2avAZwEsApAG/YdkPOaVLauvFvgW1ukReASQDPNX6pvGDSEYC/vgWxvqYpt8gFgBKAaY1f02lz2gIwzZOWW+QJoEGzKBSVGgZHO1E66wBAYm6RJ4AWzZZYlFoGAKl1mzzAJrfIE8BS5LSE4QCAMQ+IOTzBMnQUuALQpllDHIf2qACSNityC5lON2VukSeAnuZF9TIGkJpb5AlgRwNgxxUAXR6AFOUNoE+zgyxKfYcAwqID+ESzY+pHEesfXQFImyfRoZwAvKKZSojqrHfzAmDKLRKOUugawBbNTrMobWWcB4xylNquAXRodp5FqZNxHjA0AMPenQB4SrMLAC6y/mRUAEmbtZ3HEEXOj8A6zS6xKD00bDyMQtAhAO2coi8u50fgLs2uALjK+p20OV0BMI2x3LsTAMs0u86itFxqAOOmwAOg9hCpuIwRENj9aRmaMqwyAxjIKzIpFyTapgyrzFdkHrBxo8r3hOj8Y/q6IjvqY3ZN7vOe23D489/eqgoNVFfKt5XcrwICWOQGFizGLtiOLYUA7BMXKGYsxs9w7AdlG5RdAGbp0Hsbh2LAZoOyC7vhf3MIm+gYLAZlE+xvfv2Lip90IWMFRRcy2uh/B4BsQ7v4RwZ2F6iLplL9TvHy8vLyCnLWL0KYUUSypLQgAAAAAElFTkSuQmCC",
 			url: "/strat/web",
+			data: "flip-up",
 		},
 		// {
 		// 	id: 3,
@@ -27,6 +29,8 @@ const Services = () => {
 
 	return (
 		<div
+			data-aos="zoom-out-right"
+			data-aos-easing="ease-in-sine"
 			id="services"
 			className="flex px-5 py-24 flex-col gap-1 w-full text-white bg-teak-500/60"
 		>
@@ -47,6 +51,8 @@ const Services = () => {
 				</div>
 				{services.map((service, index) => (
 					<a
+						data-aos={service.data}
+						data-aos-delay="300"
 						key={index}
 						href="#contacto"
 						className="font-teko w-full flex gap-8 justify-between items-center font-thin tracking-wider text-2xl uppercase border p-6 rounded-lg bg-black/40 hover:bg-black ease-in duration-300"

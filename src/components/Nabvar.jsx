@@ -1,9 +1,14 @@
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
+	const navigate = useNavigate();
+
+	const handleClick = () => {
+		navigate("/");
+	};
 	return (
 		<div className="bg-white/80 h-20 mx-auto flex md:gap-24 justify-between md:justify-start items-center p-6 sticky top-0 z-20 shadow-[0px_0px_20px_5px_#00000024]">
 			{/* Left */}
@@ -17,30 +22,35 @@ const Navbar = () => {
 			<div className="hidden text-harvest-gold-400 md:flex font-roboto uppercase text-sm items-center cursor-pointer font-medium gap-10 p-1">
 				<a
 					href="#enfoque"
+					onClick={handleClick}
 					className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
 				>
 					Enfoque
 				</a>
 				<a
 					href="#services"
+					onClick={handleClick}
 					className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
 				>
 					Servicios
 				</a>
 				<a
 					href="#estrategia"
+					onClick={handleClick}
 					className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
 				>
 					Estrategia
 				</a>
 				<a
 					href="#blog"
+					onClick={handleClick}
 					className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
 				>
 					Blog
 				</a>
 				<a
 					href="#contacto"
+					onClick={handleClick}
 					className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
 				>
 					Contactanos
@@ -87,35 +97,45 @@ const Navbar = () => {
 				<nav>
 					<ul className="my-32 flex flex-col px-4 py-8 gap-4 text-xl text-black">
 						<a
-							onClick={() => setNav(false)}
+							onClick={() => {
+								setNav(false), handleClick();
+							}}
 							href="#enfoque"
 							className="border-b-2 pb-2 border-transparent hover:border-harvest-gold-400 hover:text-harvest-gold-400 ease-in duration-300"
 						>
 							Enfoque
 						</a>
 						<a
-							onClick={() => setNav(false)}
+							onClick={() => {
+								setNav(false), handleClick();
+							}}
 							href="#services"
 							className="border-b-2 pb-2 border-transparent hover:border-harvest-gold-400 hover:text-harvest-gold-400 ease-in duration-300"
 						>
 							Servicios
 						</a>
 						<a
-							onClick={() => setNav(false)}
+							onClick={() => {
+								setNav(false), handleClick();
+							}}
 							href="#estrategia"
 							className="border-b-2 pb-2 border-transparent hover:border-harvest-gold-400 hover:text-harvest-gold-400 ease-in duration-300"
 						>
 							Estrategia
 						</a>
 						<a
-							onClick={() => setNav(false)}
+							onClick={() => {
+								setNav(false), handleClick();
+							}}
 							href="#blog"
 							className="border-b-2 pb-2 border-transparent hover:border-harvest-gold-400 hover:text-harvest-gold-400 ease-in duration-300"
 						>
 							Blog
 						</a>
 						<a
-							onClick={() => setNav(false)}
+							onClick={() => {
+								setNav(false), handleClick();
+							}}
 							href="#contacto"
 							className="border-b-2 pb-2 border-transparent hover:border-harvest-gold-400 hover:text-harvest-gold-400 ease-in duration-300"
 						>

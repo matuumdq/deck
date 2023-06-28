@@ -36,9 +36,9 @@ const Hero = () => {
 				</p>
 				<p className="ml-4 uppercase">ambiciosas.</p>
 				<div className="mt-5 ">
-					<p className="cursor-pointer hover:bg-white hover:text-black ease-in duration-300 text-lg uppercase border border-white w-fit px-5 py-2 mx-auto rounded-md">
+					<butto className="cursor-pointer hover:bg-white hover:text-black ease-in duration-300 text-lg uppercase border border-white w-fit px-5 py-2 mx-auto rounded-md">
 						Conocenos
-					</p>
+					</butto>
 				</div>
 			</div>
 			{showMouse && (

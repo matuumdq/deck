@@ -44,14 +44,14 @@ const Blog = () => {
 					{blogs.map((blog) => (
 						<div
 							key={blog.id}
-							className="rounded-lg border border-harvest-gold-300 pb-4"
+							className="rounded-lg border border-t-0 border-harvest-gold-300 pb-4"
 						>
 							<img
 								src={blog.img}
 								alt={blog.title}
 								className="object-cover w-full rounded-t-lg"
 							/>
-							<div className="flex flex-col gap-3 px-3">
+							<div className="flex flex-col gap-3 px-3 ">
 								<h4 className="pt-4 text-lg uppercase font-bold">
 									{blog.title}
 								</h4>

@@ -61,7 +61,7 @@ const Strat = () => {
 		<Parallax
 			bgImage="https://th.bing.com/th/id/R.426b223c7a4442311bca8636772504bc?rik=%2b8AVZbh13rYH3w&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2017%2f06%2f4K-Skyscrapers-Wallpaper-For-PC.jpg&ehk=5%2flNDnyKUaD4QmE%2bGuO9KD%2burIUdicmzQuwaiKgq%2f18%3d&risl=&pid=ImgRaw&r=0"
 			bgImageAlt=""
-			bgImageStyle={{ minHeight: "100vh", objectFit: "cover" }}
+			bgImageStyle={{ objectFit: "cover" }}
 			strength={800}
 			className="image"
 		>
@@ -83,7 +83,12 @@ const Strat = () => {
 							</h3>
 							<ul>
 								{strat.items.map((item, index) => (
-									<li key={index}>- {item}.</li>
+									<li
+										key={index}
+										className="text-lg md:text-base"
+									>
+										• {item}
+									</li>
 								))}
 							</ul>
 						</div>

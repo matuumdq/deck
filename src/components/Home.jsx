@@ -3,21 +3,20 @@ import Contact from "./Contact";
 import Focus from "./Focus";
 import Hero from "./Hero";
 import Services from "./Services";
-// import Something from "./Something";
 import Strat from "./Strat";
+import ToggleSwitch from "./ToggleSwitch";
 
-const Home = () => {
+// eslint-disable-next-line react/prop-types
+const Home = ({ toggle, handleToggleChange }) => {
 	return (
-		<div className="font-roboto ">
+		<div className="font-roboto">
 			<Hero />
-			<Focus />
-			<Services />
-			{/* <Something /> */}
-			<Strat />
-			{/* <Testimonials /> */}
-			{/* <TestimonialBeta /> */}
-			<Blog />
-			<Contact />
+			<ToggleSwitch checked={toggle} onChange={handleToggleChange} />
+			<Focus toggle={toggle} />
+			<Services toggle={toggle} />
+			<Strat toggle={toggle} />
+			<Blog toggle={toggle} />
+			<Contact toggle={toggle} />
 		</div>
 	);
 };

@@ -5,7 +5,6 @@ import Footer from "./Footer";
 
 const MainLayout = () => {
 	const location = useLocation();
-
 	return (
 		<>
 			<Navbar />

@@ -2,59 +2,61 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
+// eslint-disable-next-line react/prop-types
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const navigate = useNavigate();
-
 	const handleClick = () => {
 		navigate("/");
 	};
 	return (
-		<div className="bg-white/80 h-20 mx-auto flex md:gap-24 justify-between md:justify-start items-center p-6 sticky top-0 z-20 shadow-[0px_0px_20px_5px_#00000024]">
+		<div className=" bg-white/80 h-20 mx-auto flex md:gap-12 lg:gap-24 justify-between md:justify-start items-center p-4 sticky top-0 z-20 shadow-[0px_0px_20px_5px_#00000024]">
 			{/* Left */}
 			<Link to="/" className="flex items-center gap-6">
 				<img
 					src="https://res.cloudinary.com/dnqmez68n/image/upload/v1687903209/decklogosinrealstate_uuo1iz.png"
 					alt="logo"
-					className="h-20 w-auto"
+					className="h-20 w-20"
 				/>
 			</Link>
-			<div className="hidden text-harvest-gold-400 md:flex font-roboto uppercase text-sm items-center cursor-pointer font-medium gap-10 p-1">
-				<a
-					href="#enfoque"
-					onClick={handleClick}
-					className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
-				>
-					Enfoque
-				</a>
-				<a
-					href="#services"
-					onClick={handleClick}
-					className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
-				>
-					Servicios
-				</a>
-				<a
-					href="#estrategia"
-					onClick={handleClick}
-					className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
-				>
-					Estrategia
-				</a>
-				<a
-					href="#blog"
-					onClick={handleClick}
-					className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
-				>
-					Blog
-				</a>
-				<a
-					href="#contacto"
-					onClick={handleClick}
-					className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
-				>
-					Contactanos
-				</a>
+			<div className="hidden text-harvest-gold-400 md:flex justify-between w-full">
+				<div className="hidden text-harvest-gold-400 md:flex font-roboto uppercase text-sm items-center cursor-pointer font-medium gap-10 p-1">
+					<a
+						href="#enfoque"
+						onClick={handleClick}
+						className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
+					>
+						Enfoque
+					</a>
+					<a
+						href="#services"
+						onClick={handleClick}
+						className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
+					>
+						Servicios
+					</a>
+					<a
+						href="#estrategia"
+						onClick={handleClick}
+						className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
+					>
+						Estrategia
+					</a>
+					<a
+						href="#blog"
+						onClick={handleClick}
+						className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
+					>
+						Blog
+					</a>
+					<a
+						href="#contacto"
+						onClick={handleClick}
+						className="border-b-2 border-transparent hover:border-harvest-gold-400 ease-in duration-300"
+					>
+						Contactanos
+					</a>
+				</div>
 			</div>
 			<div
 				className="cursor-pointer md:hidden"

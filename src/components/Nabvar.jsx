@@ -1,16 +1,37 @@
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
+	const [prevScrollPos, setPrevScrollPos] = useState(0);
+	const [visible, setVisible] = useState(true);
 	const navigate = useNavigate();
 	const handleClick = () => {
 		navigate("/");
 	};
+	useEffect(() => {
+		const handleScroll = () => {
+			const currentScrollPos = window.pageYOffset;
+			setVisible(
+				prevScrollPos > currentScrollPos || currentScrollPos < 10
+			);
+			setPrevScrollPos(currentScrollPos);
+		};
+
+		window.addEventListener("scroll", handleScroll);
+		return () => window.removeEventListener("scroll", handleScroll);
+	}, [prevScrollPos, visible]);
+
 	return (
-		<div className=" bg-white/80 h-20 mx-auto flex md:gap-12 lg:gap-24 justify-between md:justify-start items-center p-4 sticky top-0 z-20 shadow-[0px_0px_20px_5px_#00000024]">
+		<div
+			data-aos="zoom-in"
+			data-aos-duration="1500"
+			className={`${
+				visible ? "sticky top-0" : ""
+			} bg-white/80 font-roboto uppercase text-sm h-20 mx-auto flex justify-between items-center p-4 z-20 bg-backblue-200 shadow-[0px_0px_20px_5px_#00000024]`}
+		>
 			{/* Left */}
 			<Link to="/" className="flex items-center gap-6">
 				<img

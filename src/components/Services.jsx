@@ -29,8 +29,9 @@ const Services = () => {
 
 	return (
 		<div
-			data-aos="zoom-out-right"
-			data-aos-easing="ease-in-sine"
+			data-aos="zoom-in-right"
+			data-aos-easing="ease-out-cubic"
+			data-aos-duration="2000"
 			id="services"
 			className="flex px-5 py-24 flex-col gap-1 w-full text-white bg-teak-500/60"
 		>

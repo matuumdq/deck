@@ -76,14 +76,17 @@ const Focus = ({ toggle }) => {
 							{" "}
 							Deck
 						</span>
-						, nos enfocamos en ofrecer soluciones de marketing
-						digital personalizadas para empresas inmobiliarias.
-						Nuestro objetivo es ayudarte a aumentar tu visibilidad
-						en línea y fortalecer tu presencia digital en el
-						competitivo mundo del real estate.
+						, nuestro enfoque es claro y determinante: queremos
+						impulsar tu éxito en el mercado inmobiliario. Sabemos lo
+						crucial que es para tu negocio obtener resultados
+						excepcionales y alcanzar tus metas comerciales de manera
+						consistente. Es por eso que hemos diseñado una
+						estrategia única y especializada que se centra en
+						aumentar y automatizar la adquisición de clientes, tanto
+						para la renta como para la venta de propiedades.
 					</p>
 					<img
-						src="https://res.cloudinary.com/dnqmez68n/image/upload/v1686323570/descarga_bdlmeu.jpg"
+						src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						alt=""
 						className="w-full max-h-44 md:max-h-full object-cover md:w-1/2"
 					/>
@@ -93,11 +96,13 @@ const Focus = ({ toggle }) => {
 					className="md:bg-teak-400/50 flex flex-col md:flex-row-reverse justify-center items-center gap-3"
 				>
 					<p className="md:px-8">
-						A través de estrategias efectivas de publicidad en redes
-						sociales y diseños de sitios web de última generación,
-						nos aseguramos de que tu empresa destaque entre la
-						multitud y llegue a tu audiencia objetivo de manera
-						impactante.
+						No se trata solo de conseguir más leads, sino de atraer
+						a los clientes potenciales adecuados para tu negocio.
+						Nuestra experiencia en marketing digital nos permite
+						identificar y alcanzar a tu audiencia objetivo de manera
+						precisa. Gracias a técnicas avanzadas de segmentación,
+						generamos leads altamente cualificados que tienen un
+						genuino interés en tus propiedades y servicios.
 					</p>
 					<img
 						src="https://res.cloudinary.com/dnqmez68n/image/upload/v1686323570/descarga_bdlmeu.jpg"
@@ -110,17 +115,38 @@ const Focus = ({ toggle }) => {
 					className="flex flex-col md:flex-row justify-center items-center gap-3"
 				>
 					<p className="md:px-8">
-						Además, nuestros expertos en diseño web se encargarán de
-						crear un sitio web profesional y atractivo para tu
-						empresa inmobiliaria. Tu sitio web será diseñado
-						pensando en la experiencia del usuario y la optimización
-						para los motores de búsqueda (SEO). Esto garantiza que
-						tu empresa aparezca en los resultados de búsqueda y que
-						tus clientes puedan encontrar fácilmente la información
-						que están buscando.
+						Entendemos que tu tiempo es valioso y que necesitas
+						centrarte en cerrar tratos y hacer crecer tu negocio.
+						Por ello, implementamos soluciones de automatización
+						inteligente que simplifican tus tareas diarias y
+						optimizan tus procesos de adquisición de clientes. Esto
+						te permitirá aumentar tu productividad y enfocarte en lo
+						que realmente importa: tus clientes y tu éxito.
 					</p>
 					<img
-						src="https://res.cloudinary.com/dnqmez68n/image/upload/v1686323570/descarga_bdlmeu.jpg"
+						src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+						alt=""
+						className="w-full max-h-44 md:max-h-full object-cover md:w-1/2"
+					/>
+				</div>
+				<div
+					data-aos="fade-right"
+					className="md:bg-teak-400/50 flex flex-col md:flex-row-reverse justify-center items-center gap-3"
+				>
+					<p className="md:px-8">
+						En{" "}
+						<span className="text-teak-400 md:text-white font-bold uppercase">
+							{" "}
+							Deck
+						</span>
+						, no solo ofrecemos promesas, sino resultados tangibles.
+						Estamos dedicados a ayudarte a alcanzar un éxito
+						sostenible en el mercado inmobiliario, proporcionándote
+						las herramientas y el apoyo necesarios para destacar y
+						prosperar en un mundo digital en constante evolución.
+					</p>
+					<img
+						src="https://img.freepik.com/foto-gratis/inmobiliaria-alojamiento-propiedad-inversion-palabra-grafica_53876-138587.jpg?w=1060&t=st=1689983251~exp=1689983851~hmac=3a7a9fc0560a5829e054989b9cdaa278db16cfe2781c1599b4bd795ea1cdfb86"
 						alt=""
 						className="w-full max-h-44 md:max-h-full object-cover md:w-1/2"
 					/>
